@@ -11,9 +11,9 @@ Plug 'preservim/nerdcommenter'
 
 Plug 'junegunn/fzf', { 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
+Plug 'yuki-ycino/fzf-preview.vim', { 'branch': 'release', 'do': ':UpdateRemotePlugins' }
 
 Plug 'bling/vim-airline'
-Plug 'edkolev/tmuxline.vim'
 
 Plug 'airblade/vim-gitgutter'
 
@@ -25,5 +25,7 @@ Plug 'HerringtonDarkholme/yats.vim'
 
 Plug 'chemzqm/vim-jsx-improve'
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+
+Plug 'edkolev/tmuxline.vim'
 
 call plug#end()

@@ -1,5 +1,6 @@
 " extensions
 let g:coc_global_extensions = [
+  \ 'coc-fzf-preview',
   \ 'coc-snippets',
   \ 'coc-pairs',
   \ 'coc-tsserver',
