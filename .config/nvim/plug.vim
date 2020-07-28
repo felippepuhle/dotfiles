@@ -27,5 +27,6 @@ Plug 'chemzqm/vim-jsx-improve'
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
 Plug 'edkolev/tmuxline.vim'
+Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
