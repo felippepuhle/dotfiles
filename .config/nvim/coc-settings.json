@@ -1,0 +1,21 @@
+{
+  "suggest.noselect": false,
+  "diagnostic.errorSign": "❌",
+  "diagnostic.warningSign": "⚠️",
+  "diagnostic.infoSign": "ℹ️",
+  "diagnostic.hintSign": "💭",
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "javascriptreact",
+    "typescript.tsx",
+    "graphql"
+  ],
+  "git.addedSign.hlGroup": "GitGutterAdd",
+  "git.changedSign.hlGroup": "GitGutterChange",
+  "git.removedSign.hlGroup": "GitGutterDelete",
+  "git.topRemovedSign.hlGroup": "GitGutterDelete",
+  "git.changeRemovedSign.hlGroup": "GitGutterChangeDelete"
+}
