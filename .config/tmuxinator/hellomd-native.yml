@@ -1,0 +1,11 @@
+name: hellomd-native 
+root: ~/Projects/hellomd/native
+
+windows:
+   - main:
+       layout: main-vertical 
+       panes:
+         - nvim .
+         - yarn start
+         - yarn relay --watch
+         - .
