@@ -18,4 +18,19 @@ nnoremap <silent> [fzf-p]q     :<C-u>CocCommand fzf-preview.QuickFix<CR>
 nnoremap <silent> [fzf-p]l     :<C-u>CocCommand fzf-preview.LocationList<CR>
 
 " use vim-devicons
-let g:fzf_preview_use_dev_icons = 1 
+let g:fzf_preview_use_dev_icons = 1
+
+" theme
+let $FZF_PREVIEW_PREVIEW_BAT_THEME = 'Nord'
+let $BAT_THEME = 'Nord'
+
+" truecolors
+augroup fzf_preview
+  autocmd!
+  autocmd User fzf_preview#initialized call s:fzf_preview_settings()
+augroup END
+
+function! s:fzf_preview_settings() abort
+  let g:fzf_preview_command = 'COLORTERM=truecolor ' . g:fzf_preview_command
+  let g:fzf_preview_grep_preview_cmd = 'COLORTERM=truecolor ' . g:fzf_preview_grep_preview_cmd
+endfunction

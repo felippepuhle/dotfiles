@@ -22,8 +22,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jparise/vim-graphql'
 
 Plug 'HerringtonDarkholme/yats.vim'
-
 Plug 'chemzqm/vim-jsx-improve'
+
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
 Plug 'edkolev/tmuxline.vim'

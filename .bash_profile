@@ -17,9 +17,5 @@ export PATH=${PATH}:/usr/local/Cellar/imagemagick/7.0.7-11/bin
 # nodenv
 eval "$(nodenv init -)"
 
-# fzfz
-export FZF_DEFAULT_COMMAND='rg --files --follow --hidden'
-export FZF_PREVIEW_PREVIEW_BAT_THEME = 'Nord'
-
 # tmuxinator
 alias mux=tmuxinator
