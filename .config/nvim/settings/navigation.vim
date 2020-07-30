@@ -1,6 +1,7 @@
 " navigate between buffers
-nnoremap <silent> <leader>z :bp<CR>
-nnoremap <silent> <leader>x :bn<CR>
+nnoremap <silent> <leader>z :NERDTreeClose \| :bp<CR>
+nnoremap <silent> <leader>x :NERDTreeClose \| :bn<CR>
+" close current buffer
 nnoremap <silent> <leader>c :bd<CR>
 
 " disable vim-tmux-navigator default key-mappings
