@@ -1,0 +1,19 @@
+name: daily-bonfire 
+root: ~/Projects/hellomd
+
+windows:
+   - native:
+       root: ~/Projects/hellomd/native
+       layout: main-vertical 
+       panes:
+         - nvim .
+         - yarn start
+         - yarn relay --watch
+         - 
+   - backend:
+       root: ~/Projects/hellomd/daily-bonfire-backend
+       layout: main-vertical 
+       panes:
+         - nvim .
+         - yarn workspace graphql dev:l
+         - 
