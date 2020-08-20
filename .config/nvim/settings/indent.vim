@@ -14,3 +14,6 @@ set tabstop=2
 " linebreak on 500 characters
 set lbr
 set tw=500
+
+" enable indentLine plugin
+let g:indentLine_enabled = 1

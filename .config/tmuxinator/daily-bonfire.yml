@@ -15,5 +15,5 @@ windows:
        layout: main-vertical 
        panes:
          - nvim .
-         - yarn workspace graphql dev:l
+         - yarn workspace @daily-bonfire-backend/svc-graphql dev:l
          - 

@@ -1,0 +1,11 @@
+name: coc-graphql 
+root: ~/Projects/coc-graphql
+
+windows:
+   - main:
+       layout: main-vertical 
+       panes:
+         - nvim .
+         - tail -f $TMPDIR:a/coc.log
+         - tail -f $TMPDIR:a/graphql-language-service-logs/graphql-language-service-log-$USER-`date +%Y-%-m-%-d`.log
+         - yarn watch
