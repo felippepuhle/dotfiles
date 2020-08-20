@@ -9,7 +9,6 @@ let g:coc_global_extensions = [
   \ 'coc-json', 
   \ 'coc-highlight',
   \ 'coc-yank',
-  \ 'coc-git',
   \ 'coc-graphql',
   \ 'coc-styled-components',
   \ 'coc-react-refactor',
