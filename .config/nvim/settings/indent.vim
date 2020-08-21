@@ -17,3 +17,7 @@ set tw=500
 
 " enable indentLine plugin
 let g:indentLine_enabled = 1
+let g:indentLine_faster = 1
+let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+let g:indentLine_leadingSpaceEnabled = 1
+let g:indentLine_leadingSpaceChar = '·'

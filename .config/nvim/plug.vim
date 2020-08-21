@@ -4,6 +4,7 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'bling/vim-airline'
 Plug 'Yggdroot/indentLine'
+Plug 'RRethy/vim-illuminate'
 
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -22,8 +23,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'jparise/vim-graphql'
 
-Plug 'pangloss/vim-javascript'
-Plug 'HerringtonDarkholme/yats.vim'
+Plug 'sheerun/vim-polyglot'
 Plug 'maxmellon/vim-jsx-pretty'
 
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
