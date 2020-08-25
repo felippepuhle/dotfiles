@@ -15,6 +15,10 @@ let g:NERDTreeIndicatorMapCustom = {
     \ "Unknown"   : "?"
     \ }
 
+" fix indent
+" see https://github.com/Yggdroot/indentLine/issues/152
+autocmd BufEnter NERD_tree* :LeadingSpaceDisable
+
 function ToggleNERDTree()
   if &filetype == 'nerdtree'
     :NERDTreeClose
