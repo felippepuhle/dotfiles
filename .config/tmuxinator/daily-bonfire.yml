@@ -3,7 +3,7 @@ root: ~/Projects/hellomd
 
 windows:
    - native:
-       root: ~/Projects/hellomd/native
+       root: ~/Projects/daily-bonfire/native
        layout: main-vertical 
        panes:
          - nvim .
@@ -11,7 +11,7 @@ windows:
          - yarn relay --watch
          - 
    - backend:
-       root: ~/Projects/hellomd/daily-bonfire-backend
+       root: ~/Projects/daily-bonfire/daily-bonfire-backend
        layout: main-vertical 
        panes:
          - nvim .
