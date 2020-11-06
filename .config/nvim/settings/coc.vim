@@ -5,12 +5,11 @@ let g:coc_global_extensions = [
   \ 'coc-pairs',
   \ 'coc-tsserver',
   \ 'coc-eslint', 
+  \ 'coc-stylelint', 
   \ 'coc-prettier', 
   \ 'coc-json', 
   \ 'coc-highlight',
   \ 'coc-yank',
-  \ 'coc-graphql',
-  \ 'coc-styled-components',
   \ 'coc-react-refactor',
   \ ]
 
