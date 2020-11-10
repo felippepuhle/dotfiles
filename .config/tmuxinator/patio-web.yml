@@ -2,10 +2,10 @@ name: patio-web
 root: ~/Projects/patio/PatioWeb
 
 windows:
-  - native:
-      root: ~/Projects/patio/PatioWeb
-      layout: main-vertical
-      panes:
-        - nvim .
-        - yarn start
-        -
+   - code: nvim .
+   - scripts: 
+       layout: main-vertical
+       panes:
+         - yarn start
+         - yarn storybook
+         -
