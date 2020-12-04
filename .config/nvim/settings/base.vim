@@ -13,7 +13,3 @@ set lazyredraw
 " enable syntax highlight just on the current buffer
 autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
 autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
-
-" split
-set splitbelow
-set splitright

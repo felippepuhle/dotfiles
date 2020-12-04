@@ -1,3 +1,7 @@
+" split
+set splitbelow
+set splitright
+
 " editor 
 noremap <silent> <c-x> :split<CR>
 noremap <silent> <c-v> :vsplit<CR>
