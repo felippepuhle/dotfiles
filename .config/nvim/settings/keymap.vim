@@ -1,3 +1,11 @@
+" edit configuration file
+nnoremap <Leader>ve :e $MYVIMRC<CR>
+" reload vim configuration file
+nnoremap <Leader>vr :source $MYVIMRC<CR>
+
+" clear highlighting on escape in normal mode
+nmap <esc><esc> :noh<return>
+
 " yank the entire word
 nmap <leader>yw yiww
 

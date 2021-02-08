@@ -1,6 +1,5 @@
 " extensions
 let g:coc_global_extensions = [
-  \ 'coc-fzf-preview',
   \ 'coc-snippets',
   \ 'coc-pairs',
   \ 'coc-tsserver',
@@ -10,7 +9,6 @@ let g:coc_global_extensions = [
   \ 'coc-json', 
   \ 'coc-highlight',
   \ 'coc-yank',
-  \ 'coc-react-refactor',
   \ ]
 
 " signs

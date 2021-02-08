@@ -1,9 +1,10 @@
 # Projects
 alias projects="cd ~/Projects"
+alias patio="cd ~/Projects/patio"
+alias patio-web="cd ~/Projects/patio/PatioWeb"
 
-# HelloMD
-alias hellomd="cd ~/Projects/hellomd"
-alias hellomd-native="cd ~/Projects/hellomd/native"
+# VScode
+export PATH="${PATH}:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Android
 export ANDROID_HOME=~/Library/Android/sdk

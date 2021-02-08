@@ -28,22 +28,19 @@ snippet cl "console.log()" b
 console.log($1)
 endsnippet
 
-snippet nrfc "new React FunctionComponent" b
+snippet rfc "React Functional Component" b
 import React from 'react'
 
-const MyComponent = () => {
-	return null
+import styles from './$1.module.scss'
+
+const ${1:`!v expand('%:t:r')`} = () => {
+	return (
+		<${2:div} className={styles.base}>
+			$0
+		</$2>
+	)
 }
 
-export default MyComponent
+export default $1 
 endsnippet
 
-snippet nmrfc "new memoized React FunctionComponent" b
-import React, { memo } from 'react'
-
-const MyComponent = () => {
-	return null
-}
-
-export default memo(MyComponent)
-endsnippet
