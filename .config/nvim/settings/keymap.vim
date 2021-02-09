@@ -3,6 +3,9 @@ nnoremap <Leader>ve :e $MYVIMRC<CR>
 " reload vim configuration file
 nnoremap <Leader>vr :source $MYVIMRC<CR>
 
+" save
+nmap <Leader>w :w<return>
+
 " clear highlighting on escape in normal mode
 nmap <esc><esc> :noh<return>
 
