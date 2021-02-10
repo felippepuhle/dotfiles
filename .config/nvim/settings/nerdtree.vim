@@ -28,4 +28,4 @@ function ToggleNERDTree()
   endif
 endfunction
 
-map <C-n> :call ToggleNERDTree()<CR>
+map <Leader>n :call ToggleNERDTree()<CR>

@@ -6,6 +6,7 @@ Plug 'bling/vim-airline'
 Plug 'RRethy/vim-illuminate'
 Plug 'markonm/traces.vim'
 Plug 'wfxr/minimap.vim'
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
