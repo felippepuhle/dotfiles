@@ -1,7 +1,7 @@
 set signcolumn=yes
 
-nmap ]h <Plug>(GitGutterNextHunk)
-nmap [h <Plug>(GitGutterPrevHunk)
+nmap ]gh <Plug>(GitGutterNextHunk)
+nmap [gh <Plug>(GitGutterPrevHunk)
 
 nmap ghp <Plug>(GitGutterPreviewHunk)
 nmap ghs <Plug>(GitGutterStageHunk)

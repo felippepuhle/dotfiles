@@ -11,6 +11,9 @@ set smarttab
 set shiftwidth=2
 set tabstop=2
 
+" new line uses the prev indent
+set ai
+
 " linebreak on 500 characters
 set lbr
 set tw=500

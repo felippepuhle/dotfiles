@@ -2,10 +2,11 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'arcticicestudio/nord-vim'
 Plug 'ryanoasis/vim-devicons'
-Plug 'bling/vim-airline'
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'romgrk/barbar.nvim'
+Plug 'itchyny/lightline.vim'
 Plug 'RRethy/vim-illuminate'
 Plug 'markonm/traces.vim'
-Plug 'wfxr/minimap.vim'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 Plug 'scrooloose/nerdtree'
@@ -31,8 +32,5 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jparise/vim-graphql'
 Plug 'sheerun/vim-polyglot'
 Plug 'maxmellon/vim-jsx-pretty'
-
-Plug 'edkolev/tmuxline.vim'
-Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
