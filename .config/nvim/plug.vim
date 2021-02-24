@@ -27,7 +27,8 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'ruanyl/vim-gh-line'
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neovim/nvim-lspconfig'
+Plug 'nvim-lua/completion-nvim'
 
 Plug 'jparise/vim-graphql'
 Plug 'sheerun/vim-polyglot'

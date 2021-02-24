@@ -6,9 +6,6 @@ nnoremap <Leader>vr :source $MYVIMRC<CR>
 " save
 nmap <Leader>w :w<return>
 
-" clear highlighting on escape in normal mode
-nmap <esc><esc> :noh<return>
-
 " yank the entire word
 nmap <leader>yw yiww
 

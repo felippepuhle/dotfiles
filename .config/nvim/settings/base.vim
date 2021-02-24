@@ -17,3 +17,5 @@ autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
 " mouse
 set mouse=a
 
+" color highlight
+set termguicolors
