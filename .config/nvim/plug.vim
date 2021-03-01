@@ -1,10 +1,12 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'arcticicestudio/nord-vim'
+
 Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-web-devicons'
+
 Plug 'romgrk/barbar.nvim'
-Plug 'itchyny/lightline.vim'
+Plug 'hoob3rt/lualine.nvim'
 Plug 'RRethy/vim-illuminate'
 Plug 'markonm/traces.vim'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
