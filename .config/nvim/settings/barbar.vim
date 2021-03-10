@@ -2,6 +2,10 @@ let bufferline = get(g:, 'bufferline', {})
 
 let bufferline.icons = 'both' 
 
+" re-order
+nnoremap <silent> <leader>bmz :BufferMovePrevious<CR>
+nnoremap <silent> <leader>bmx :BufferMoveNext<CR>
+
 " navigate between buffers
 nnoremap <silent> <leader>z :BufferPrevious<CR>
 nnoremap <silent> <leader>x :BufferNext<CR>

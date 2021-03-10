@@ -10,6 +10,8 @@ Plug 'hoob3rt/lualine.nvim'
 Plug 'RRethy/vim-illuminate'
 Plug 'markonm/traces.vim'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+Plug 'AndrewRadev/tagalong.vim'
+Plug 'machakann/vim-highlightedyank'
 
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -32,8 +34,7 @@ Plug 'ruanyl/vim-gh-line'
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/completion-nvim'
 
-Plug 'jparise/vim-graphql'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'sheerun/vim-polyglot'
-Plug 'maxmellon/vim-jsx-pretty'
 
 call plug#end()
