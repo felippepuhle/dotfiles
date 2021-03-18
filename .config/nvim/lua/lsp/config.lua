@@ -1,5 +1,4 @@
 local lsp = require("lspconfig")
-local completion = require("completion")
 
 local eslint = {
   lintCommand = "eslint_d -f unix --stdin --stdin-filename ${INPUT}",
@@ -53,8 +52,6 @@ local function make_on_attach(config)
     if config.before then
       config.before(client, bufnr)
     end
-
-    completion.on_attach(client)
 
     local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
     local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end

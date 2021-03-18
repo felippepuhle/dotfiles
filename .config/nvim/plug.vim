@@ -32,7 +32,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'ruanyl/vim-gh-line'
 
 Plug 'neovim/nvim-lspconfig'
-Plug 'nvim-lua/completion-nvim'
+Plug 'hrsh7th/nvim-compe'
 
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'sheerun/vim-polyglot'
