@@ -2,6 +2,7 @@ let g:NERDTreeWinSize=40
 let g:NERDTreeQuitOnOpen = 1
 let g:NERDTreeIgnore = ['^node_modules$']
 let g:NERDTreeGitStatusWithFlags = 1
+let g:NERDTreeShowHidden = 1
 let g:NERDTreeGitStatusUseNerdFonts = 1
 let g:NERDTreeGitStatusIndicatorMapCustom = {
     \ 'Modified'  :'✹',

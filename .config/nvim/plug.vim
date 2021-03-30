@@ -11,6 +11,7 @@ Plug 'RRethy/vim-illuminate'
 Plug 'markonm/traces.vim'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'AndrewRadev/tagalong.vim'
+Plug 'norcalli/nvim-colorizer.lua'
 Plug 'machakann/vim-highlightedyank'
 
 Plug 'scrooloose/nerdtree'
