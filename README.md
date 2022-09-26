@@ -21,12 +21,6 @@ brew tap epk/epk
 brew install --cask font-sf-mono-nerd-font
 ```
 
-Copy files
-
-```
-cp ./.zshrc ~/.zshrc
-```
-
 ## nvim
 
 Install nvim
@@ -63,13 +57,6 @@ Inside nvim, install TS parsers and LSPs
 :LspInstall sumneko_lua graphql tsserver
 ```
 
-Copy files
-
-```
-cp -a ./.config/nvim/lua/user ~/.config/nvim/lua/user
-
-```
-
 ## tmux and tmuxinator
 
 Install tmux and tmuxinator:
@@ -86,13 +73,6 @@ pip3 install powerline-status
 ```
 
 Update `tmux.colorscheme` to `solarized` inside `/usr/local/lib/python3.9/site-packages/powerline/config_files/config.json` for better tmux visual
-
-Copy files
-
-```
-cp ./.tmux.conf ~/.tmux.conf
-cp -a ./.config/tmuxinator ~/.config/tmuxinator
-```
 
 ### hasura
 
