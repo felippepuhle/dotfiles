@@ -4,6 +4,10 @@ rm ~/.zshrc.bkp
 mv ~/.zshrc ~/.zshrc.bkp
 cp ./.zshrc ~/.zshrc
 
+rm -rf ~/.config/alacritty.bkp
+mv ~/.config/alacritty ~/.config/alacritty.bkp
+cp -a ./.config/alacritty ~/.config/alacritty
+
 rm -rf ~/.config/nvim/lua/user.bkp
 mv ~/.config/nvim/lua/user ~/.config/nvim/lua/user.bkp
 cp -a ./.config/nvim/lua/user ~/.config/nvim/lua/user

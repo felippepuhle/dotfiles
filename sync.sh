@@ -3,6 +3,9 @@
 rm ./.zshrc
 cp ~/.zshrc ./.zshrc
 
+rm -rf ./config/alacritty
+cp -a ~/.config/alacritty ./.config/alacritty
+
 rm -rf ./.config/nvim/lua/user
 cp -a ~/.config/nvim/lua/user ./.config/nvim/lua/user
 
