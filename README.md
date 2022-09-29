@@ -80,6 +80,16 @@ pip3 install powerline-status
 
 Update `tmux.colorscheme` to `solarized` inside `/usr/local/lib/python3.9/site-packages/powerline/config_files/config.json` for better tmux visual
 
-### hasura
+## Window Managament
+
+Install yabai and skhd
+
+```
+brew install koekeishiya/formulae/yabai koekeishiya/formulae/skhd
+brew services start yabai
+brew services start skhd
+```
+
+## hasura
 
 To disable auto-update check on the CLI, set `"show_update_notification": false` in `~/.hasura/config.json`

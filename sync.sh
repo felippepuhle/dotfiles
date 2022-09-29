@@ -13,3 +13,9 @@ rm ./.tmux.conf
 rm -rf ./.config/tmuxinator
 cp  ~/.tmux.conf ./.tmux.conf
 cp -a ~/.config/tmuxinator ./.config/tmuxinator
+
+rm ./.yabairc
+cp ~/.yabairc ./.yabairc
+
+rm ./.skhdrc
+cp ~/.skhdrc ./.skhdrc
