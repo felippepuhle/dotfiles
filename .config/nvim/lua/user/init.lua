@@ -1,5 +1,6 @@
 -- Suport transparent background
 vim.cmd [[autocmd ColorScheme * highlight Normal guibg=NONE ctermbg=NONE]]
+vim.cmd [[autocmd ColorScheme * highlight SignColumn guibg=NONE ctermbg=NONE]]
 
 local config = {
   -- Set colorscheme to use
@@ -56,6 +57,12 @@ local config = {
             },
           }
         end,
+      },
+    },
+
+    ["neo-tree"] = {
+      window = {
+        width = 50,
       },
     },
 
