@@ -72,14 +72,6 @@ brew install tmux
 brew install tmuxinator
 ```
 
-Install Powerline
-
-```
-pip3 install powerline-status
-```
-
-Update `tmux.colorscheme` to `solarized` inside `/usr/local/lib/python3.9/site-packages/powerline/config_files/config.json` for better tmux visual
-
 ## Window Managament
 
 Install yabai and skhd
