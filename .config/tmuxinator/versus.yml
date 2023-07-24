@@ -1,0 +1,37 @@
+name: versus
+root: ~/Projects/escondido
+
+windows:
+  - mobile:
+      layout: main-vertical
+      root: ~/Projects/escondido/vs-mobile
+      panes:
+        - nvim
+        - yarn start
+        -
+  - web:
+      layout: main-vertical
+      root: ~/Projects/escondido/vs-web
+      panes:
+        - nvim
+        - yarn dev
+        -
+  - admin:
+      layout: main-vertical
+      root: ~/Projects/escondido/vs-admin
+      panes:
+        - nvim
+        - yarn dev
+        -
+  - backend:
+      layout: main-vertical
+      root: ~/Projects/escondido/vs-backend
+      panes:
+        - nvim
+        - yarn workspace @vs/server dev
+        - yarn workspace @vs/server-admin dev
+        - yarn workspace @vs/queue dev
+        -
+  - docker:
+      root: ~/Projects/escondido/vs-backend/local
+      panes: docker-compose up

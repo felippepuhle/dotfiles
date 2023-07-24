@@ -1,0 +1,23 @@
+name: patio
+root: ~/Projects/patio
+
+windows:
+  - mobile:
+      layout: main-vertical
+      root: ~/Projects/patio/chat-mobile
+      panes:
+        - nvim
+        - yarn start
+        -
+  - backend:
+      root: ~/Projects/patio/backend
+      panes: nvim
+  - hasura:
+      root: ~/Projects/patio/backend/hasura
+      panes: hasura console --no-browser
+  - firebase-functions:
+      root: ~/Projects/patio/backend/firebase/functions
+      panes: yarn emulate
+  - api-server:
+      root: ~/Projects/patio/backend/api-server
+      panes: yarn dev

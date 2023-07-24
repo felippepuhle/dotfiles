@@ -38,8 +38,7 @@ brew install neovim
 Install AstroNvim
 
 ```
-git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
-nvim +PackerSync
+git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 ```
 
 Install AstroNvim dependencies
@@ -47,20 +46,6 @@ Install AstroNvim dependencies
 ```
 brew install ripgrep
 brew install lazygit
-```
-
-Install LSP dependencies
-
-```
-npm install -g eslint_d
-npm install -g @fsouza/prettierd
-```
-
-Inside nvim, install TS parsers and LSPs
-
-```
-:TSInstall dockerfile dot gitattributes gitignore graphql lua regex typescript
-:LspInstall sumneko_lua graphql tsserver
 ```
 
 ## tmux and tmuxinator
@@ -72,16 +57,14 @@ brew install tmux
 brew install tmuxinator
 ```
 
-## Window Managament
-
-Install yabai and skhd
+Install the plugin manager:
 
 ```
-brew install koekeishiya/formulae/yabai koekeishiya/formulae/skhd
-brew services start yabai
-brew services start skhd
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-## hasura
+Install plugins:
 
-To disable auto-update check on the CLI, set `"show_update_notification": false` in `~/.hasura/config.json`
+```
+prefix + I
+```

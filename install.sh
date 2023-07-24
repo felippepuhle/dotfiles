@@ -19,10 +19,3 @@ mv ~/.config/tmuxinator ~/.config/tmuxinator.bkp
 cp ./.tmux.conf ~/.tmux.conf
 cp -a ./.config/tmuxinator ~/.config/tmuxinator
 
-rm ~/.yabairc.bkp
-cp ~/.yabairc ~/.yabairc.bkp
-cp ./.yabairc ~/.yabairc
-
-rm ~/.skhdrc.bkp
-cp ~/.skhdrc ~/.skhdrc.bkp
-cp ./.skhdrc ~/.skhdrc
